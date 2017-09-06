@@ -13,6 +13,7 @@ module Wikisnakker
       P768:  :constituency,
       P1365: :replaces,
       P1366: :replaced_by,
+      P1545: :ordinal,
       P2715: :election,
       P2937: :term,
     }.freeze
