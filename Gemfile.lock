@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/everypolitician/everypolitician-popolo.git
+  revision: 4d8aa382e9de4b3eed122cdb4a487c8f1943eff2
+  specs:
+    everypolitician-popolo (0.9.0)
+      require_all
+
+GIT
   remote: https://github.com/everypolitician/everypolitician-ruby.git
   revision: 363f7abb3bf2596d89cc048b98deb1a83ac163ff
   specs:
@@ -28,8 +35,6 @@ GEM
   specs:
     ast (2.4.0)
     coderay (1.1.2)
-    everypolitician-popolo (0.8.0)
-      require_all
     httpclient (2.8.3)
     method_source (0.9.0)
     parallel (1.12.1)
@@ -60,6 +65,7 @@ PLATFORMS
 
 DEPENDENCIES
   everypolitician!
+  everypolitician-popolo!
   pry
   rubocop
   scraperwiki!
